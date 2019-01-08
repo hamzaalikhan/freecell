@@ -2,7 +2,7 @@
 import random
 from card import Card
 
-#The second class of the assignment
+#The second class
 #Designed to create deck using 52 card
 #The class has the ability to shuffle all cards once they are in the deck
 class Deck():
@@ -55,7 +55,7 @@ class Deck():
             i += 1
 
     #Function that takes in any list and shuffles the objects inside the list
-    #For the sake of this assignment the fucntion will shuffle the cards in the deck
+    #For the sake of this task the fucntion will shuffle the cards in the deck
     def deck_shuffle(self,x):
         random.shuffle(x)
 
@@ -68,7 +68,7 @@ class Deck():
             return False
 
     #Function that simply adds objects to a list
-    #For the sake of this assignment it may add a card to a cell, pile or a foundation.
+    #For the sake of this task it may add a card to a cell, pile or a foundation.
     def addcard(self,theCard,theList):
         theList.append(theCard)
 

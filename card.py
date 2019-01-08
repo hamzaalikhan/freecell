@@ -1,4 +1,4 @@
-#The first class of the assignment
+#The first class
 #Designed to create a card
 class Card:
 

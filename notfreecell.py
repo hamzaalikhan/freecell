@@ -1,7 +1,7 @@
 #Importing class deck that will be used to make the freecell game
 from deck import Deck
 
-#The last class of the assignment.
+#The last class
 #Designed to create the game using class card and deck.
 #The class has the ability to create a deck, create the structure of the game
 #Validate user inputs and implement the rules of the game
